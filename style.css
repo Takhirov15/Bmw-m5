@@ -198,15 +198,6 @@ main {
     width: 100%;
     position: relative;
   }
-  .header-menu > nav > ul > li:hover:before {
-    content: "";
-    width: 100%;
-    height: 3px;
-    position: absolute;
-    display: block;
-    bottom: 0;
-    background-color: #1f1f1f;
-  }
   .header-menu.active {
     right: 0;
     -webkit-transition: all 0.5s;
